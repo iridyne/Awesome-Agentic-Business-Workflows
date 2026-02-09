@@ -1,5 +1,0 @@
-httpx
-beautifulsoup4
-pyyaml
-openai
-pydantic

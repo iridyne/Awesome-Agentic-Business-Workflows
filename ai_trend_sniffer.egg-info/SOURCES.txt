@@ -1,8 +1,0 @@
-README.md
-main.py
-pyproject.toml
-ai_trend_sniffer.egg-info/PKG-INFO
-ai_trend_sniffer.egg-info/SOURCES.txt
-ai_trend_sniffer.egg-info/dependency_links.txt
-ai_trend_sniffer.egg-info/requires.txt
-ai_trend_sniffer.egg-info/top_level.txt
