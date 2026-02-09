@@ -1,0 +1,68 @@
+Metadata-Version: 2.4
+Name: ai-trend-sniffer
+Version: 0.1.0
+Summary: Automated AI Trend Sniffer
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: httpx
+Requires-Dist: beautifulsoup4
+Requires-Dist: pyyaml
+Requires-Dist: openai
+Requires-Dist: pydantic
+
+# Awesome-Agentic-Business-Workflows
+
+> 专注于将 AI Agents 转化为实际生产力的垂直商业工作流百科。
+
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+![License: MIT](https://img.shields.io/badge/License-MIT-black.svg)
+
+---
+
+## 🏛️ 核心理念 / Core Logic
+我们不收集“能聊天的机器人”，我们只聚合“能工作的生产线”。
+本项目利用 **GitHub Models** 自动嗅探全球 AI 趋势，并通过 **DeepSeek** 进行商业价值建模。
+
+---
+
+## 🚀 今日自动化发现 / Automated Insights
+<!-- START_HOTSPOT -->
+### ⚙️ [正在初始化...] | 潜力指数: -/10
+- **核心逻辑**: 等待 GitHub Action 首次运行触发。
+- **商业机会**: 自动嗅探中...
+<!-- END_HOTSPOT -->
+---
+*（以上内容由 Iridyne Bot 利用 GitHub Copilot 算力全自动生成）*
+---
+
+## 📦 商业化铲子 / The Shovels
+> **如果你想把这些流量据为己有，我们提供现成的基础设施。**
+
+| 商品名称 | 交付内容 | 适用场景 |
+| :--- | :--- | :--- |
+| **[Box-01] 情报工厂** | 本仓库同款全自动嗅探与发布系统 | 垂直领域自媒体、行业内参站 |
+| **[Box-02] 流量克隆器** | 针对 TikTok/小红书的视频视觉迁移工作流 | 跨境电商、个人品牌分身 |
+| **[Box-03] 零成本 Agent** | 基于 GitHub 原生环境的免服务器部署方案 | 企业内部提效、低成本套利者 |
+
+---
+
+## 🏗️ 垂直化聚合分类 / Curation
+### 1. 基础设施层 (Infrastructure)
+- **MCP Servers**: 解决 AI 访问本地数据与专业软件的最后 1 公里。
+- **High-Perf Runtimes**: 适合在大规模数据流中运行的 Rust/C++ 代理框架。
+
+### 2. 行业应用流 (Vertical Workflows)
+- **电商自动化**: 自动选品 -> 自动素材生成 -> 自动投放监测。
+- **内容自动化**: 爆款嗅探 -> 语境重构 -> 审美迁移 -> 自动分发。
+
+---
+
+## 🛠️ 极客声明 / Tech Specs
+- **Engine**: GitHub Models (GPT-4o / Llama-3.3)
+- **Runtime**: Python 3.12 (Managed by `uv`)
+- **Orchestration**: GitHub Actions
+- **Design Philosophy**: Bauhaus / Minimalist Industrial
+
+---
+
+**Iridyne Organization** *Est. 2026 | Built for the New Economy.*
