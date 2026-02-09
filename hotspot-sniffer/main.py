@@ -12,7 +12,7 @@ from azure.core.credentials import AzureKeyCredential
 # 配置区
 # 使用 GitHub Models 需要 GITHUB_TOKEN，Actions 环境会自动注入，本地需手动 export
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
-MODEL_NAME = "gpt-4o" # 可选 "Llama-3.3-70b" 等
+MODEL_NAME = "gpt-4o" # 核心逻辑推理，推荐使用 gpt-4o 或 gemini-1.5-flash
 TRENDING_URL = "https://github.com/trending/python?since=daily" # 默认关注 Python/AI 领域
 # 注意：路径相对于 git 根目录，Actions 运行是在根目录
 README_PATH = "../README.md" 
@@ -57,15 +57,16 @@ async def get_ai_reasoning(repos: List[RepoItem]) -> str:
     repo_context = "\n".join([f"- {r.name}: {r.desc} ({r.link})" for r in repos])
     
     prompt = f"""
-    你是一个包豪斯(Bauhaus)风格的极简主义设计师。
+    你是一个包豪斯(Bauhaus)风格的极简主义设计师，同时具备深厚的投资人视角。
     任务：从以下 GitHub 热点项目中精选 3-5 个最具『商业化潜力』和『工作流创新度』的项目。
     
     输出要求：
     1. 每一项严格保持以下格式：
        [Emoji] | **项目名** | 商业化潜力: [1-10]/10
-       - 核心卖点：[一行字，精准描述商业价值，禁止废话]
-       - 传送门：[URL]
-    2. 视觉风格：极简、对齐、干净。
+       - **核心卖点**：[一行字，精准描述商业价值，禁止废话]
+       - **价值拆解**：[用简练词汇描述加分/扣分项。格式：[+] 加分项; [-] 扣分项]
+       - **传送门**：[URL]
+    2. 视觉风格：极简、对齐、干净，强调数据的权威感。
     3. 分类标签 Emoji 规范：⚙️ 工具, 🛍️ 商业应用, 🧠 模型/AI内核, 🚀 框架/基础设施。
     4. 仅输出精选列表条目，不要任何开场白或结束语。
     5. 语言：中文。
