@@ -22,32 +22,11 @@
 ## 🚀 今日自动化发现 / Automated Insights
 <!-- START_HOTSPOT -->
 
-### 🕒 Trend Sniffed at 2026-02-09 09:58
+### 🕒 Trend Sniffed at 2026-02-10 01:18
 
-⚙️ | **google/langextract** | 商业化潜力: 9/10  
-- **核心卖点**：精准提取非结构化文本中的结构化信息，适配企业数据治理与知识管理需求。  
-- **价值拆解**：[+] 强调源头溯源与可视化，适合高合规行业；[+] LLM驱动，技术前沿；[-] 依赖LLM性能，可能受限于模型成本。  
-- **传送门**：[https://github.com/google/langextract](https://github.com/google/langextract)  
-
-🧠 | **OpenBMB/MiniCPM-o** | 商业化潜力: 8/10  
-- **核心卖点**：支持多模态实时流媒体交互，适配移动端场景，填补轻量级多模态市场空白。  
-- **价值拆解**：[+] Gemini架构，技术创新；[+] 适配移动端，市场需求大；[-] 需优化性能与功耗平衡。  
-- **传送门**：[https://github.com/OpenBMB/MiniCPM-o](https://github.com/OpenBMB/MiniCPM-o)  
-
-🛍️ | **hsliuping/TradingAgents-CN** | 商业化潜力: 8/10  
-- **核心卖点**：多智能体LLM驱动的中文金融交易框架，专注高频交易与策略优化。  
-- **价值拆解**：[+] 中文金融市场专属优化，差异化竞争力；[+] 多智能体协作，提升交易效率；[-] 需验证稳定性与安全性。  
-- **传送门**：[https://github.com/hsliuping/TradingAgents-CN](https://github.com/hsliuping/TradingAgents-CN)  
-
-🧠 | **resemble-ai/chatterbox** | 商业化潜力: 7/10  
-- **核心卖点**：开源SoTA级TTS技术，适配语音生成与虚拟助手场景。  
-- **价值拆解**：[+] 高质量TTS，适合内容创作与客服；[+] 开源降低准入门槛；[-] 商业化竞争激烈，需差异化应用场景。  
-- **传送门**：[https://github.com/resemble-ai/chatterbox](https://github.com/resemble-ai/chatterbox)  
-
-🚀 | **airweave-ai/airweave** | 商业化潜力: 8/10  
-- **核心卖点**：为AI代理提供开源上下文检索层，提升任务执行效率与准确性。  
-- **价值拆解**：[+] 解决上下文管理痛点，提升AI代理性能；[+] 开源生态，易于集成；[-] 需验证大规模应用场景下的稳定性。  
-- **传送门**：[https://github.com/airweave-ai/airweave](https://github.com/airweave-ai/airweave)
+❌ AI Reasoning Failed: (unauthorized) Bad credentials
+Code: unauthorized
+Message: Bad credentials
 
 <!-- END_HOTSPOT -->
 
