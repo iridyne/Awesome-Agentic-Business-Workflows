@@ -1,7 +1,0 @@
-api_key: "your-deepseek-api-key"
-base_url: "https://api.deepseek.com"
-model: "deepseek-chat"
-github_trending_url: "https://github.com/trending/python?since=daily"
-hacker_news_url: "https://news.ycombinator.com/"
-output_file: "README.md"
-threshold: 8

@@ -1,11 +1,10 @@
 # 🤖 Awesome-Agentic-Business-Workflows
 
-> **工业级 AI Agent 商业工作流百科** —— 拒绝低端对话，专注于将大模型转化为实际生产力的实战流水线。
+> **工业级 AI Agent 商业工作流百科** —— 由 Iridyne 自动化引擎驱动的公共服务项目。
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Model-Gemini%203%20Flash-blue?style=for-the-badge&logo=google-gemini" alt="Gemini 3 Flash">
-  <img src="https://img.shields.io/badge/Model-GPT--4o-green?style=for-the-badge&logo=openai" alt="GPT-4o">
-  <img src="https://img.shields.io/badge/Powered%20By-GitHub%20Models-black?style=for-the-badge&logo=github" alt="GitHub Models">
+  <img src="https://img.shields.io/badge/Powered%20By-Iridyne%20Engine-blue?style=for-the-badge&logo=rocket" alt="Iridyne Engine">
+  <img src="https://img.shields.io/badge/Status-Automated-green?style=for-the-badge&logo=github-actions" alt="Automated">
   <br>
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
   <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License">
@@ -13,14 +12,27 @@
 
 ---
 
-## 🏛️ 核心理念 / Philosophy
+## 🏛️ 项目说明 / Project Overview
 
-在 Web3 与 AI Agent 深度交织的时代，我们不再需要“能聊天的机器人”，我们需要的是 **“自动化、可自循环、具备商业套利能力”**的数字劳动力。本项目基于 **GitHub Models**，利用世界顶级大模型（如 Gemini 3 Flash, GPT-4o）进行趋势捕捉与价值建模。
+这是一个展示 **AI Agent 自动化工作流** 实战能力的长效运行项目。本仓库目前作为一个“静态展示窗（Showcase）”，由部署在私有仓库的 **Iridyne Factory** 每日自动监测全球 AI 动态并生成报告。
+
+我们致力于将大模型转化为实际生产力，重点关注：
+- **实时捕获**：全球高价值 AI 开源项目与商业趋势。
+- **深度研判**：利用顶级大模型（Gemini 3 Flash, GPT-4o）进行商业化潜力评估。
+- **极简展示**：遵循包豪斯（Bauhaus）工业美学，提供最高信噪比的信息。
 
 ---
 
 ## 🚀 今日自动化发现 / Automated Insights
 <!-- START_HOTSPOT -->
+<!-- 此处内容由 Iridyne 自动化引擎每日更新 -->
+<!-- END_HOTSPOT -->
+
+> *（以上内容由 Iridyne Bot 每日自动更新。底层驱动：Iridyne Private Factory）*
+
+---
+
+## 🏗️ 垂直化工作流 / Vertical Workflows
 
 ### 🕒 Trend Sniffed at 2026-02-10 01:18
 
@@ -78,7 +90,7 @@ graph LR
     D --> E[Git-Bot Auto Update]
     E --> F[README.md]
 ```
-
+<!--
 ### 快速开始 / Quick Start
 1. **Fork 本仓库**：获取属于你自己的自动化内参站。
 2. **配置 Secret**：在 GitHub Setting 中添加 `MODELS_TOKEN` (从 GitHub Models 获取)。
@@ -87,9 +99,8 @@ graph LR
 - **Engine**: GitHub Models (Primary: Gemini 3 Flash / GPT-4o)
 - **Runtime**: Python 3.12 (Managed by `uv`)
 - **CI/CD**: GitHub Actions
-- **Design Strategy**: Minimalism & Industrial Efficiency
+- **Design Strategy**: Minimalism & Industrial Efficiency-->
 
 ---
 
-**Iridyne Organization** *Est. 2026 | 为新经济构建自动化基石。*
-
+**Iridyne Organization**
